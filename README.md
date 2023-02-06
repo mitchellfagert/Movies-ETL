@@ -1,5 +1,5 @@
 # Movies-ETL
-This is a project that showcases an Extract, Transform, Load (ETL) process to create data pipelines using Python, Pandas and PostgreSQL using very large data files.
+This is a project that showcases an Extract, Transform, Load (ETL) process to create data pipelines using Python, Pandas and PostgreSQL.
 
 ![etl-banner](https://user-images.githubusercontent.com/107579508/206490779-ce1eaca6-a12c-4446-8166-b7f9c2eab190.jpg)
 
