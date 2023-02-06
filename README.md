@@ -12,7 +12,7 @@ Create an ETL pipeline using Jupyter Notebooks and PostgreSQL from raw data to S
 * **Extract:** read data from multiple sources using Python. Data sourced from:
 
   * **Wikipedia:** (format: .json, file size: 6.2MB) 7,311 thousand movie titles that include information about the movies, budgets, box office returns, cast/crew, production and distribution.
-  * **Kaggle:** - 2 files (formate: .csv)
+  * **Kaggle:** - 2 files (format: .csv)
     *     metadata file from The Movie Database containing movie details with 45.5 thousand entries. (File size: 34.4MB)
     *     a dataset from MovieLens containing over 26 million movie ratings/review. (File size: 709.6MB)
  
@@ -25,6 +25,7 @@ Create an ETL pipeline using Jupyter Notebooks and PostgreSQL from raw data to S
 
 ## Results
 I was able to extract, transform, and load the datasets as two new tables into PostgreSQL by using Python. The final results created a movies table with 6,052 rows. A 17% reduction from the original of 7,311 and a ratings table with 52,048,578 rows.
+
 ![Movies_count](https://user-images.githubusercontent.com/107579508/206494819-396b2a51-8a7a-410e-8d02-a2d9b145f56d.png)
 
 
